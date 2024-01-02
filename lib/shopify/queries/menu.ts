@@ -1,4 +1,4 @@
-export const getMenuQuery = /* GraphQL */ `
+export const getMenuQuery =  `
   query getMenu($handle: String!) {
     menu(handle: $handle) {
       items {
