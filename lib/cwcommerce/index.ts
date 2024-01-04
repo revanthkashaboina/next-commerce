@@ -6,9 +6,9 @@ export async function getProduct(handle: string): Promise<Product | undefined> {
       const client = new Typesense.Client({
         nodes: [
           {
-            host: '95.216.171.30',
+            host: 'typesense.exceloid.in',
             port: 8108,
-            protocol: 'http'
+            protocol: 'https'
           }
         ],
         apiKey: 'exceloid-test'

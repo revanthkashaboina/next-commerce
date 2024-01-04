@@ -269,6 +269,8 @@ export default function Search() {
 
 
 
+
+
 // 'use client'
 // import { useEffect, useState } from 'react';
 // import Typesense from 'typesense';
@@ -276,9 +278,9 @@ export default function Search() {
 // const client = new Typesense.Client({
 //   nodes: [
 //     {
-//       host: '95.216.171.30',
+//       host: 'typesense.exceloid.in',
 //       port: 8108,
-//       protocol: 'http'
+//       protocol: 'https'
 //     }
 //   ],
 //   apiKey: 'exceloid-test'
