@@ -146,6 +146,8 @@
 
 
 
+
+
 'use client'
 import { useEffect, useState, useRef } from 'react';
 import Typesense from 'typesense';
@@ -216,6 +218,7 @@ export default function Search() {
           }
         }
       } catch (error) {
+        //console.error(error)
         console.error('Typesense search error:', error);
         setSuggestions([]);
         setShowNotFound(false);
