@@ -147,7 +147,6 @@
 
 
 'use client'
-import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useEffect, useState, useRef } from 'react';
 import Typesense from 'typesense';
 
@@ -321,9 +320,6 @@ export default function Search() {
           Products Not Found
         </div>
       )}
-      <div className="absolute right-0 top-0 mr-3 flex h-full items-center" style = {{padding: "10px"}}>
-        <MagnifyingGlassIcon className="h-4" />
-      </div>
     </div>
   );
 }
