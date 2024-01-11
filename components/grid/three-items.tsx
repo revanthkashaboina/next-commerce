@@ -114,7 +114,7 @@ export const ThreeItemGrid: React.FC = () => {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop:"2%" }}>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', paddingLeft: '8%' }}>
         {products.map((product, id) => (
           <Link
@@ -125,7 +125,7 @@ export const ThreeItemGrid: React.FC = () => {
               padding: '10px',
               borderRadius: '5px',
               width: '300px',
-              boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)'
+              boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)'
             }}
           >
             <img

@@ -1,4 +1,8 @@
-import { Carousel } from 'components/carousel';
+// import { Carousell } from 'components/carousel';
+import Carousell from 'components/carousel';
+import AboutUsCard from 'components/aboutUs';
+import AboutProductsCard from 'components/aboutProducts';
+import ShopByCategory from 'components/shopByCategory';
 import { ThreeItemGrid } from 'components/grid/three-items';
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
@@ -15,9 +19,12 @@ export const metadata = {
 export default async function HomePage() {
   return (
     <>
+      <Carousell />
+      <AboutUsCard />
+      <AboutProductsCard />
+      <ShopByCategory />
       <ThreeItemGrid />
       <Suspense>
-        <Carousel />
         <Suspense>
           <Footer />
         </Suspense>
